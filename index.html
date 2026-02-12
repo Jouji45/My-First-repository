@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<index html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 2 Lab Assignment</title>
+    <title>Module 2 Lab Assignment</title> 
 </head>
 <body>
 
@@ -13,85 +14,86 @@
     </header>
 
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>My name is John and I do some repairs and some side hustles</p>
-        </section>
+        <div class="container">
+            <section class="card">
+                <h2>About Me</h2>
+                <p>My name is John and I do some repairs and some side hustles</p>
+            </section>
 
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Repair things</li>
-                <li>Animation</li>
-                <li>
-                    Web Technologies (Nested List)
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Git</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+            <section class="card">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Repair things</li>
+                    <li>Animation</li>
+                    <li>
+                        Web Technologies (Nested List)
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Git</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
 
-        <section>
-            <h2>Image Example</h2>
-            <img src="image/imagesplaceholder.jpg" alt="A descriptive text about the image for accessibility">
-        </section>
+            <section class="card">
+                <h2>Image Example</h2>
+                <img src="image/imagesplaceholder.jpg" alt="A descriptive text about the image for accessibility">
+            </section>
 
-        <section>
-            <h2>Useful Links</h2>
-            <p>Visit <a href="https://www.google.com" target="_blank">Google</a> to search for more info.</p>
-        </section>
+            <section class="card">
+                <h2>Useful Links</h2>
+                <p>Visit <a href="https://www.google.com" target="_blank">Google</a> to search for more info.</p>
+            </section>
 
-        <section>
-            <h2>Education</h2>
-            <style>table, th, td{border: 1px, solid, black; border-collapse: collapse;} </style>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Program</th>
-                        <th>Institution</th>
-                        <th>Year Graduated</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>College</td>
-                        <td>USTP - CDO Campus</td>
-                        <td>2024</td>
-                    </tr>
-                    <tr>
-                        <td>Senior Highschool</td>
-                        <td>ONSTS</td>
-                        <td>2021</td>
-                    </tr>
-		    <tr>
-                        <td>Highschool</td>
-                        <td>Riverdale - Barra Opol Campus</td>
-                        <td>2019</td>
-                    </tr>
-		    <tr>
-                        <td>College</td>
-                        <td>COC</td>
-                        <td>2022</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+            <section class="table">
+                <h2>Education</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Program</th>
+                            <th>Institution</th>
+                            <th>Year Graduated</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>College</td>
+                            <td>USTP - CDO Campus</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Senior Highschool</td>
+                            <td>ONSTS</td>
+                            <td>2021</td>
+                        </tr>
+                <tr>
+                            <td>Highschool</td>
+                            <td>Riverdale - Barra Opol Campus</td>
+                            <td>2019</td>
+                        </tr>
+                <tr>
+                            <td>College</td>
+                            <td>COC</td>
+                            <td>2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
-        <section>
-            <h2>Contact Me</h2>
-            <form action="#" method="POST">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+            <section class="card">
+                <h2>Contact Me</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
 
-                <input type="submit" value="Submit">
-            </form>
-        </section>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
     </main>
 
     <footer>
