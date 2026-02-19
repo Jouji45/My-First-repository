@@ -96,8 +96,17 @@ button:hover {
     background-color: #005fa3;
     }
 
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.dark-mode {
+    background-color:#000000;
+    color:rgb(255, 255, 255);
+    }
+
+.hidden {
+    display:none;
+    }

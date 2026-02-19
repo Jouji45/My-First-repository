@@ -1,4 +1,5 @@
 <index html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css"> 
@@ -8,9 +9,12 @@
 </head>
 <body>
 
-    <header>
+    <header class="container">
+        <section class="card">
+        <button id="themeToggle">Toggle Dark Mode</button> 
         <h1>John Benedict R. Acebido</h1>
-	<p>BSIT IT2R3 | Web Systems and Technologies</p>
+	    <p>BSIT IT2R3 | Web Systems and Technologies</p>
+    </section>
     </header>
 
     <main>
@@ -19,8 +23,8 @@
                 <h2>About Me</h2>
                 <p>My name is John and I do some repairs and some side hustles</p>
             </section>
-
-            <section class="card">
+            <button id="toggleSkills">Show/Hide Skills</button> 
+            <section class="card" id="skillsSection">
                 <h2>Skills</h2>
                 <ul>
                     <li>Repair things</li>
@@ -84,13 +88,10 @@
             <section class="card">
                 <h2>Contact Me</h2>
                 <form action="#" method="POST">
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required><br><br>
-
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
-
-                    <input type="submit" value="Submit">
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="message" id="message" placeholder="Message">
+                    <button type="submit" id="submitBtn">Send</button>
                 </form>
             </section>
         </div>
@@ -99,6 +100,6 @@
     <footer>
         <p>&copy; 2024 John Acebido. All rights reserved.</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
